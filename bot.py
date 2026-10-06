@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 # ╔══════════════════════════════════════════╗
 # ║          ⚙️ SOZLAMALAR                  ║
 # ╚══════════════════════════════════════════╝
-BOT_TOKEN = "8664953326:AAFZPd1GawbH19oP6wQsJjtK6bh9CKwQIa8"
+BOT_TOKEN = "8720789945:AAHyWvjwzhRhaCntP_4RQ8M1IUUOrrjHjM0"
 ADMIN_ID  = 8595373987
 DB_PATH   = "kino_bot.db"
 
@@ -230,7 +230,7 @@ def format_number(n):
 
 # ╔══════════════════════════════════════════╗
 # ║          🎹 KLAVIATURALAR             ║
-# ╚════════════════════════════════════════��═╝
+# ╚════════════════════════════════════════╝
 def main_menu_kb(is_admin=False):
     kb = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     kb.add(KeyboardButton("🎬 Kino qidirish"))
@@ -305,7 +305,7 @@ def movie_parts_kb(movie_code, parts, user_vip=False):
 
 # ╔══════════════════════════════════════════╗
 # ║          🔑 ADMIN STATE                ║
-# ╚══════��═══════════════════════════════════╝
+# ╚══════════════════════════════════════════╝
 admin_state = {}
 
 
